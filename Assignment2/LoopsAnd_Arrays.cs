@@ -21,6 +21,7 @@ namespace Assignment2
         {
             StringBuilder sb = new StringBuilder();
             //even
+            Console.WriteLine("---Printing even numbers----\n");
             for (int i = 0; i < arr.Length; i++)
             {
                 int currentValue = arr[i];
@@ -31,6 +32,7 @@ namespace Assignment2
             }
             sb.AppendLine("");
             //odd
+            Console.WriteLine("---Printing odd numbers----\n");
             for (int i = 0; i < arr.Length; i++)
             {
                 int currentValue = arr[i];
