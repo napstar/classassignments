@@ -13,11 +13,13 @@ namespace Assignment2
             // GradeClass gradeClass = new Assignment2.GradeClass();
             //gradeClass.gradeMethod();
             LoopsAnd_Arrays LPA = new LoopsAnd_Arrays();
-            Console.WriteLine("Print array in one line\n\n");
+            Console.WriteLine("\n\n***********************************************************");
+            Console.WriteLine("Print array in one line".ToUpper()+"\n\n");
             LPA.printOneLine();
-            Console.WriteLine("\n\nPrint even and odd numbers in an array\n");
+            Console.WriteLine("\n\n***********************************************************\n\n");
+            Console.WriteLine("\n\n"+"Print even and odd numbers in an array".ToUpper()+"\n");
             LPA.printOddAndEven();
-           
+            Console.WriteLine("\n\n***********************************************************\n\n");
             Console.ReadLine();
           
             
