@@ -12,17 +12,32 @@ namespace Assignment2
         {
             // GradeClass gradeClass = new Assignment2.GradeClass();
             //gradeClass.gradeMethod();
-            LoopsAnd_Arrays LPA = new LoopsAnd_Arrays();
-            Console.WriteLine("\n\n***********************************************************");
-            Console.WriteLine("Print array in one line".ToUpper()+"\n\n");
-            LPA.printOneLine();
-            Console.WriteLine("\n\n***********************************************************\n\n");
-            Console.WriteLine("\n\n"+"Print even and odd numbers in an array".ToUpper()+"\n");
-            LPA.printOddAndEven();
-            Console.WriteLine("\n\n***********************************************************\n\n");
+            //LoopsAnd_Arrays LPA = new LoopsAnd_Arrays();
+            //Console.WriteLine("\n\n***********************************************************");
+            //Console.WriteLine("Print array in one line".ToUpper()+"\n\n");
+            //LPA.printOneLine();
+            //Console.WriteLine("\n\n***********************************************************\n\n");
+            //Console.WriteLine("\n\n"+"Print even and odd numbers in an array".ToUpper()+"\n");
+            //LPA.printOddAndEven();
+            //Console.WriteLine("\n\n***********************************************************\n\n");
+            //Console.ReadLine();
+            double acuteangle, adjside, oppside, hypotenuse;
+            string input;
+
+            Console.Write("Enter one of the acute angles :");
+            input = Console.ReadLine();
+            acuteangle = double.Parse(input);
+
+            Console.Write("Enter the adjacent side :");
+            input = Console.ReadLine();
+            adjside = double.Parse(input);
+
+            oppside = Trigonometry.calcOppSide(adjside, acuteangle);
+            hypotenuse = Trigonometry.calcHypotenuseSide(adjside, oppside);
+            Trigonometry.displayResults(oppside, hypotenuse);
             Console.ReadLine();
-          
-            
+
+
         }
      
     }
