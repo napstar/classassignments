@@ -10,8 +10,11 @@ namespace Assignment2
     {
         static void Main(string[] args)
         {
+            //grade
             // GradeClass gradeClass = new Assignment2.GradeClass();
             //gradeClass.gradeMethod();
+            
+            //loops and arrays
             //LoopsAnd_Arrays LPA = new LoopsAnd_Arrays();
             //Console.WriteLine("\n\n***********************************************************");
             //Console.WriteLine("Print array in one line".ToUpper()+"\n\n");
@@ -21,6 +24,8 @@ namespace Assignment2
             //LPA.printOddAndEven();
             //Console.WriteLine("\n\n***********************************************************\n\n");
             //Console.ReadLine();
+            
+            //trig
             double acuteangle, adjside, oppside, hypotenuse;
             string input;
 
